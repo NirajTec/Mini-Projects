@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+  
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+        font-weight: 100px;
+}
+.global_container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.hero{
+    margin: 0 auto;
+    height: calc(100vh - 72px);
+    display: flex;
+    justify-content: space-between;
+}
+.hero_tx{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+}
+ .hero {
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 72px);
+      }
+
+
+.hero_tx h1 {
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+  }
+  .hero_tx p {
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 400px;
+  }
+
+
+  .hero_btn {
+    display: flex;
+    gap: 40px;
+  }
+  .hero_btn button {
+    font-size: 24px;
+  }
